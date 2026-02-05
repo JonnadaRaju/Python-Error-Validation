@@ -11,13 +11,6 @@ A comprehensive guide to understanding and fixing common Python errors. This gui
 3. [Name Errors](#name-errors)
 4. [Type Errors](#type-errors)
 5. [Index Errors](#index-errors)
-6. [Key Errors](#key-errors)
-7. [Attribute Errors](#attribute-errors)
-8. [Value Errors](#value-errors)
-9. [Zero Division Error](#zero-division-error)
-10. [Import Errors](#import-errors)
-11. [File Not Found Error](#file-not-found-error)
-12. [Runtime Errors](#runtime-errors)
 
 ---
 
