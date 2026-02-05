@@ -282,39 +282,6 @@ print(word[-1])  # Access last character using negative indexing
 
 ---
 
-## Key Errors
-
-**What it means:** You're trying to access a dictionary key that doesn't exist.
-
-### Example 1: Missing Dictionary Key
-
-```python
-# ❌ WRONG CODE
-person = {"name": "Arjun", "age": 30}
-print(person["email"])
-```
-
-**Error Message:**
-```
-KeyError: 'email'
-```
-
-**✅ CORRECT CODE:**
-```python
-person = {"name": "Arjun", "age": 30}
-
-# Option 1: Use get() method
-print(person.get("email", "Not provided"))
-
-# Option 2: Check if key exists
-if "email" in person:
-    print(person["email"])
-else:
-    print("Email not found")
-```
-
----
-
 ## Quick Reference: Error Types Summary
 
 | Error Type | Common Cause | Quick Fix |
